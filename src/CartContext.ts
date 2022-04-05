@@ -6,8 +6,8 @@ interface Product {
   price: number;
 }
 
-interface Cart {
-  products?: Product[];
+export interface Cart {
+  products: Product[];
   shipping_value?: number;
 }
 
